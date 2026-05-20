@@ -15,7 +15,8 @@ Draw skeleton structure on body
 Adjustable confidence threshold
 Streamlit-based web interface
 Real-time pose visualization
-🛠️ Technologies Used
+
+#🛠️ Technologies Used
 Python
 OpenCV
 TensorFlow
@@ -49,9 +50,7 @@ source venv/bin/activate
 5. Install Dependencies
 pip install streamlit pillow numpy opencv-python
 ▶️ Run the Project
-
 Run the Streamlit application:
-
 streamlit run estimation_app.py
 
 OR
