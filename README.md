@@ -38,7 +38,67 @@ human-pose-estimation/
 ├── README.md
 └── requirements.txt
 ```
+## ⚙️ Installation
 
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <repository_link>
+```
+
+### 2️⃣ Open Project Folder
+
+```bash
+cd human-pose-estimation
+```
+
+### 3️⃣ Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 4️⃣ Activate Virtual Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+### 5️⃣ Install Dependencies
+
+```bash
+pip install streamlit pillow numpy opencv-python
+```
+
+---
+
+## ▶️ Run the Project
+
+```bash
+streamlit run estimation_app.py
+```
+
+OR
+
+```bash
+python -m streamlit run estimation_app.py
+```
+
+Open in browser:
+
+```text
+http://localhost:8501
+```
+
+---
 ## 🧠 How It Works
 
 1. Upload an image  
